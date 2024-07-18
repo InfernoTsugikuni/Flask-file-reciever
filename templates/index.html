@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Upload</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Files</h1>
+        <br>
+        <ul>
+            {% for file in files %}
+                <li><a href="{{ url_for('uploaded_file', filename=file) }}">{{ file }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
