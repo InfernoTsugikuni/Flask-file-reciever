@@ -4,7 +4,7 @@ import requests
 url = 'http://YOUR SERVER IP:5000/upload'
 
 # Path to the file you want to upload
-file_path = r'C:\Users\User\Documents\FlaskWebhookSystem\New Text Document.txt'
+file_path = r'C:\FilePath'
 
 with open(file_path, 'rb') as f:
     files = {'file': f}
