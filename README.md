@@ -21,4 +21,3 @@ Made using Windows 10.
 5. Run the Flask server using 'python app.py'.
 6. Upload a file to it using 'upload_file.py', make sure to read the comments first.
 7. Run the file uploading process using 'python upload_file.py'.
-8. For accessing website in your search engine type '127.0.0.1:5000'.
